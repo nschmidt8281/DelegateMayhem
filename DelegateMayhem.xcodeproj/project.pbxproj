@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CA2E04C11F97D4BD003744F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E04C01F97D4BD003744F0 /* AppDelegate.swift */; };
-		CA2E04C31F97D4BD003744F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E04C21F97D4BD003744F0 /* ViewController.swift */; };
+		CA2E04C31F97D4BD003744F0 /* ReceivingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E04C21F97D4BD003744F0 /* ReceivingVC.swift */; };
 		CA2E04C61F97D4BD003744F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2E04C41F97D4BD003744F0 /* Main.storyboard */; };
 		CA2E04C91F97D4BD003744F0 /* DelegateMayhem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA2E04C71F97D4BD003744F0 /* DelegateMayhem.xcdatamodeld */; };
 		CA2E04CB1F97D4BD003744F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2E04CA1F97D4BD003744F0 /* Assets.xcassets */; };
 		CA2E04CE1F97D4BD003744F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2E04CC1F97D4BD003744F0 /* LaunchScreen.storyboard */; };
+		CA2E04D61F97D521003744F0 /* SendingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E04D51F97D521003744F0 /* SendingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA2E04BD1F97D4BD003744F0 /* DelegateMayhem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegateMayhem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2E04C01F97D4BD003744F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA2E04C21F97D4BD003744F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA2E04C21F97D4BD003744F0 /* ReceivingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingVC.swift; sourceTree = "<group>"; };
 		CA2E04C51F97D4BD003744F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA2E04C81F97D4BD003744F0 /* DelegateMayhem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DelegateMayhem.xcdatamodel; sourceTree = "<group>"; };
 		CA2E04CA1F97D4BD003744F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2E04CD1F97D4BD003744F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2E04CF1F97D4BD003744F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2E04D51F97D521003744F0 /* SendingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				CA2E04C01F97D4BD003744F0 /* AppDelegate.swift */,
-				CA2E04C21F97D4BD003744F0 /* ViewController.swift */,
+				CA2E04D51F97D521003744F0 /* SendingVC.swift */,
+				CA2E04C21F97D4BD003744F0 /* ReceivingVC.swift */,
 				CA2E04C41F97D4BD003744F0 /* Main.storyboard */,
 				CA2E04CA1F97D4BD003744F0 /* Assets.xcassets */,
 				CA2E04CC1F97D4BD003744F0 /* LaunchScreen.storyboard */,
@@ -140,8 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2E04C91F97D4BD003744F0 /* DelegateMayhem.xcdatamodeld in Sources */,
-				CA2E04C31F97D4BD003744F0 /* ViewController.swift in Sources */,
+				CA2E04C31F97D4BD003744F0 /* ReceivingVC.swift in Sources */,
 				CA2E04C11F97D4BD003744F0 /* AppDelegate.swift in Sources */,
+				CA2E04D61F97D521003744F0 /* SendingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
